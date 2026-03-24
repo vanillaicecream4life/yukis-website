@@ -1,0 +1,53 @@
+* {
+
+    background-color: white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid; 
+    grid-template-rows: repeat(4, 0fr);
+    margin: 1em 2em; 
+    gap: 1em;
+}
+
+.container .myitem {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+
+.heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.image {
+    max-width: 300px;
+    min-width: 0;
+
+}
+
+.links {
+    justify-content: space-between;
+
+}
+
+.thelinks {
+    display: flex;
+    gap: 3em;
+}
